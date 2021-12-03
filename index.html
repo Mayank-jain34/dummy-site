@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Document Title</h1>
+
+    <div id="cat">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eum
+        quis fuga quasi ipsam quidem facere sunt quae minima, quibusdam ullam
+        amet dicta, ipsa sequi eos temporibus consectetur doloribus cupiditate?
+        Eius nobis in cum! Eveniet rem commodi veniam similique,
+      </p>
+      <p>
+        hic quos perferendis quia voluptas illum perspiciatis, molestiae nisi
+        commodi vitae consectetur suscipit. Quis, enim sint delectus ipsa id
+        exercitationem consequuntur. Placeat animi dicta inventore sed, numquam
+        exercitationem similique sapiente ea a iusto est ad dolorum officiis
+        explicabo modi nulla. Esse labore tempore iure ducimus alias fugiat,
+        expedita ipsum sit. Cum.
+      </p>
+
+      <ul>
+        <li class="kittens">Item 1</li>
+        <li class="kittens">Item 2</li>
+        <li class="kittens" title="I'm brown!">Item 3</li>
+      </ul>
+    </div>
+
+    <div id="dog">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eum
+        quis fuga quasi ipsam quidem facere sunt quae minima,
+      </p>
+      <p>explicabo modi nulla. Esse labore tempore iure ducimus alias fugiat,
+        expedita ipsum sit. Cum.</p>
+
+      <ul>
+        <li class="puppies">Test 1</li>
+        <li class="puppies">Test 2</li>
+        <li class="puppies">Test 3
+            <ul>
+                <li>Test 3.1</li>
+                <li>Test 3.2</li>
+                <li>Test 3.3</li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sequi consectetur quia nam rem nisi facere necessitatibus hic doloremque animi unde, in perspiciatis omnis ipsa libero explicabo sunt asperiores dolores!
+    </p>
+
+    <h2>Form</h2>
+
+    <form>
+        <fieldset>
+          <label for="nameField">Name</label>
+          <input type="text" value="Some Name" id="nameField">
+          <label for="ageRangeField">Age Range</label>
+          <select id="ageRangeField">
+            <option value="0-13">0-13</option>
+            <option value="14-17">14-17</option>
+            <option value="18-23">18-23</option>
+            <option value="24+">24+</option>
+          </select>
+          <label for="commentField">Comment</label>
+          <textarea value="Some Comment" id="commentField"></textarea>
+          <div class="float-right">
+            <input type="checkbox" id="confirmField" value="Some Name">
+            <label class="label-inline" for="confirmField">Send a copy to yourself</label>
+          </div>
+          <input class="button-primary" type="submit" value="Send">
+        </fieldset>
+      </form>
+  </body>
+</html>
